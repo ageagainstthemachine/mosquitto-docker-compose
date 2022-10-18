@@ -4,10 +4,11 @@ services:
     volumes:
       - ./config/:/mosquitto/config/:ro
       - ./log/:/mosquito/log/
-      - data:/mosquito/data/
+      - ./data:/mosquito/data/
     ports:
-      - 1883:1883
-      - 9001:9001
+      - 1883:1883 #mqtt
+      - 9001:9001 #ws
+    restart: unless-stopped
 
 volumes:
   data: ~
