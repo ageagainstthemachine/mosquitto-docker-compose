@@ -1,5 +1,7 @@
 # Simple Mosquitto broker
 
+This is a fork of [https://github.com/vvatelot/mosquitto-docker-compose](https://github.com/vvatelot/mosquitto-docker-compose).
+
 ![Mosquitto Logo](https://mosquitto.org/images/mosquitto-text-side-28.png 'Mosquitto')
 
 This is a simple [Mosquitto](https://mosquitto.org) broker to quickly initialize projects requiring an MQTT broker.
